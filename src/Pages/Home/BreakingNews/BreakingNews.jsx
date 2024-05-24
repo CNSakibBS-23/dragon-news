@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const BreakingNews = () => {
   return (
-    <div className="flex bg-slate-100">
+    <div className="flex bg-slate-100 p-3">
       <button className="btn btn-secondary">Latest</button>
       <Marquee pauseOnHover="true">
         <Link className="mr-12" to="/">
